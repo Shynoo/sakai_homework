@@ -306,7 +306,6 @@ public class SakaiHomeworks {
         matcher=pattern.matcher(text);
         for (int i=0;matcher.find();i++){
             ss[i]=matcher.group();
-//            System.out.println(ss[i]);
         }
         return text2Homeworks(ss);
     }
@@ -326,15 +325,12 @@ public class SakaiHomeworks {
             Matcher dateMatcher=datePattern.matcher(ss[i]);
             dateMatcher.find();
 
-            String name=nameMatcher.group().substring(1,nameMatcher.group().length()-4);
-            String stat=statMatcher.group().substring(5,statMatcher.group().length()-7);
-            String date=dateMatcher.group().substring(4,dateMatcher.group().length()-7);
-            homeworks.add(new Homework(name,stat,date));
+            String name=nameMatcher.group().substring(1, nameMatcher.group().length()-4);
+            String stat=statMatcher.group().substring(5, statMatcher.group().length()-7);
+            String date=dateMatcher.group().substring(4, dateMatcher.group().length()-7);
+            homeworks.add(new Homework(name, stat, date));
 
         }
-//        for (Homework h:homeworks){
-//            System.out.println(h);
-//        }
         return homeworks;
     }
 
@@ -491,7 +487,6 @@ public class SakaiHomeworks {
     public static void main(String[] args) {
 
         final String softwareVersion="v0.1.1_beta";
-//        final String filePath="./"
         if (args.length==2&&args[0].length()==8&&args[0].compareTo("11110000")>0&&args[1].length()>=6) {
             username=args[0];
             password=args[1];
