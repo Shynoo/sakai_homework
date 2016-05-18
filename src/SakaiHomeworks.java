@@ -72,15 +72,19 @@ class Homework{
         }
     }
     public boolean isWriteable(){
-        if (this.stat.contains("草稿")||(stat.contains("尚未"))){
-            return true;
-        }
-        else {
-            return false;
-        }
+        return true;
+//        if (this.stat.contains("草稿")||(stat.contains("尚未"))){
+//            return true;
+//        }
+//        else {
+//            return false;
+//        }
     }
     public boolean isOvertime(){
         Date now=new Date();
+        if (date2==null){
+            return true;
+        }
         return date2.getTime()<=now.getTime();
     }
     public boolean notOvertime(){
@@ -483,10 +487,18 @@ public class SakaiHomeworks {
         }
     }
 
+    @Test
+    private static void logInTest(){
+        logIn("","");
+        showAllHomeworks();
+    }
 
     public static void main(String[] args) {
 
         final String softwareVersion="v0.1.1_beta";
+
+//        logInTest();
+
         if (args.length==2&&args[0].length()==8&&args[0].compareTo("11110000")>0&&args[1].length()>=6) {
             username=args[0];
             password=args[1];
