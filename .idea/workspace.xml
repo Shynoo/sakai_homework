@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df58c155-3b9d-4e09-91b8-38b3ad1772d0" name="Default" comment="v0.1.2">
+    <list default="true" id="df58c155-3b9d-4e09-91b8-38b3ad1772d0" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="2299cd2a-abde-4f52-86c9-bb56ce17190f" name="New changelist" comment="">
@@ -31,22 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SakaiHomeworks.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="SakaiHomeworks.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SakaiHomeworks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+            <state relative-caret-position="3366">
+              <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
               <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#Homework#0" expanded="false" />
+                <element signature="method#setDefaultHeader#0;class#SakaiHomeworks#0" expanded="false" />
                 <element signature="e#5765#5785#0" expanded="true" />
+                <element signature="method#showHeaders#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#getHomeworkUrl#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#getHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#matchHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#text2Homeworks#0;class#SakaiHomeworks#0" expanded="false" />
                 <element signature="e#11426#11436#0" expanded="true" />
+                <element signature="method#text2#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#configureHttpClient#0;class#SakaiHomeworks#0" expanded="false" />
                 <element signature="e#12655#12906#0" expanded="true" />
                 <element signature="e#12905#12906#0" expanded="true" />
+                <element signature="method#configureHttpClient2#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#matchCourseInfo#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#text#0;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#showHeaders#1;class#SakaiHomeworks#0" expanded="false" />
+                <element signature="method#logInTest#0;class#SakaiHomeworks#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
@@ -625,7 +640,7 @@
       <updated>1463620855769</updated>
       <workItem from="1463620857326" duration="450000" />
       <workItem from="1463621347301" duration="948000" />
-      <workItem from="1463725241060" duration="1152000" />
+      <workItem from="1463725241060" duration="9997000" />
     </task>
     <task id="LOCAL-00001" summary="v0.1.2">
       <created>1463725830719</created>
@@ -641,11 +656,18 @@
       <option name="project" value="LOCAL" />
       <updated>1463726549088</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="v0.1.2">
+      <created>1463726605971</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1463726605971</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2550000" />
+    <option name="totallyTimeSpent" value="11395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="50" y="23" width="1230" height="777" extended-state="6" />
@@ -653,7 +675,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329927" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -693,7 +715,9 @@
     <option name="PRESELECT_EXISTING_CHANGELIST" value="false" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -706,10 +730,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Homework#0" expanded="false" />
+            <element signature="method#setDefaultHeader#0;class#SakaiHomeworks#0" expanded="false" />
             <element signature="e#5765#5785#0" expanded="true" />
+            <element signature="method#showHeaders#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#getHomeworkUrl#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#getHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#matchHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#text2Homeworks#0;class#SakaiHomeworks#0" expanded="false" />
             <element signature="e#11426#11436#0" expanded="true" />
+            <element signature="method#text2#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#configureHttpClient#0;class#SakaiHomeworks#0" expanded="false" />
             <element signature="e#12655#12906#0" expanded="true" />
             <element signature="e#12905#12906#0" expanded="true" />
+            <element signature="method#configureHttpClient2#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#matchCourseInfo#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#text#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#showHeaders#1;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#logInTest#0;class#SakaiHomeworks#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -722,24 +761,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SakaiHomeworks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#5765#5785#0" expanded="true" />
-            <element signature="e#11426#11436#0" expanded="true" />
-            <element signature="e#12655#12906#0" expanded="true" />
-            <element signature="e#12905#12906#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SakaiHomeworks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="375" column="0" selection-start-line="375" selection-start-column="0" selection-end-line="375" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#Homework#0" expanded="false" />
+            <element signature="method#setDefaultHeader#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="e#5765#5785#0" expanded="true" />
+            <element signature="method#showHeaders#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#getHomeworkUrl#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#getHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#matchHomeworks#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#text2Homeworks#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="e#11426#11436#0" expanded="true" />
+            <element signature="method#text2#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#configureHttpClient#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="e#12655#12906#0" expanded="true" />
+            <element signature="e#12905#12906#0" expanded="true" />
+            <element signature="method#configureHttpClient2#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#matchCourseInfo#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#text#0;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#showHeaders#1;class#SakaiHomeworks#0" expanded="false" />
+            <element signature="method#logInTest#0;class#SakaiHomeworks#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
