@@ -1,4 +1,4 @@
-# sakai_howework
+# sakai_homework
 
 这是一个自动检查sakai上作业的脚本
 
